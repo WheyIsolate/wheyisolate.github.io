@@ -750,11 +750,11 @@ select {
   transition: 0.7s; }
 
 .navbar__logo {
-/*  font-size: 1.325rem;
+  font-size: 1.325rem;
   transition: 0;
   color: #fff;
-  text-decoration: none; }*/
-  width: 100px; }
+  text-decoration: none; }
+/*  width: 100px; }*/
 
 .navbar__menu {
   display: none; }
@@ -904,6 +904,8 @@ select {
     width: 100%;
     max-width: 600px;
     text-align: center; }
+  .hero__content__logo {
+    width: 5000px; }
 
 /*--- CONTENT STYLING ---*/
 .hero__title {
