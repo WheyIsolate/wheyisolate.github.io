@@ -750,10 +750,11 @@ select {
   transition: 0.7s; }
 
 .navbar__logo {
-  font-size: 1.325rem;
+/*  font-size: 1.325rem;
   transition: 0;
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none; }*/
+  width: 100px; }
 
 .navbar__menu {
   display: none; }
@@ -872,13 +873,13 @@ select {
   width: 100%;
   opacity: 0.96;
   z-index: 1;
-  background-color: #f65555; }
+  background-color: #6c63ff; }
 
 .hero__overlay--gradient {
-  background: linear-gradient(to right, #f65555, #fd3e3e); }
+  background: linear-gradient(to right, #6c63ff, #4641ff); }
 
 .hero__overlay--gradientVertical {
-  background: linear-gradient(to bottom, #f65555, #fd3e3e); }
+  background: linear-gradient(to bottom, #6c63ff, #4641ff); }
 
 .hero__mask {
   position: absolute;
